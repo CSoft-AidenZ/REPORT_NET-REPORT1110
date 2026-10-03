@@ -19,7 +19,7 @@
     <RootNamespace>Report1110</RootNamespace>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -41,7 +41,7 @@
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>..\..\BUILDS\DotNetRprtDlls\</OutputPath>
+    <OutputPath>.\bin\Debug\</OutputPath>
     <DocumentationFile>Report1110.xml</DocumentationFile>
     <DebugSymbols>True</DebugSymbols>
     <DefineDebug>True</DefineDebug>
@@ -53,7 +53,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>..\..\LoggersEdge530\RateCalculator\DotNetRprtDlls\</OutputPath>
+    <OutputPath>.\bin\Release\</OutputPath>
     <DocumentationFile>Report1110.xml</DocumentationFile>
     <DebugSymbols>true</DebugSymbols>
     <DefineDebug>False</DefineDebug>
@@ -67,45 +67,49 @@
   <ItemGroup>
     <Reference Include="AxInterop.FPSpreadADO, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BUILDS\DotNetRprtDlls\AxInterop.FPSpreadADO.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\AxInterop.FPSpreadADO.dll</HintPath>
     </Reference>
     <Reference Include="clsBasComnFuncs">
-      <HintPath>C:\LOGGERS_EDGE_INSTALL\RateCalculator\clsBasComnFuncs.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\clsBasComnFuncs.dll</HintPath>
     </Reference>
     <Reference Include="clsCaribouCalculators">
-      <HintPath>C:\LOGGERS_EDGE_INSTALL\RateCalculator\clsCaribouCalculators.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\clsCaribouCalculators.dll</HintPath>
     </Reference>
     <Reference Include="clsLib_DataAccess">
-      <HintPath>C:\LOGGERS_EDGE_INSTALL\RateCalculator\clsLib_DataAccess.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\clsLib_DataAccess.dll</HintPath>
     </Reference>
     <Reference Include="clsLib_ReportClasses">
-      <HintPath>C:\LOGGERS_EDGE_INSTALL\RateCalculator\clsLib_ReportClasses.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\clsLib_ReportClasses.dll</HintPath>
     </Reference>
     <Reference Include="CSOFT_BASIC_FUNCTIONS">
-      <HintPath>C:\LOGGERS_EDGE_INSTALL\RateCalculator\CSOFT_BASIC_FUNCTIONS.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\CSOFT_BASIC_FUNCTIONS.dll</HintPath>
     </Reference>
     <Reference Include="CSOFT_RECORDSET_EXT">
-      <HintPath>C:\LOGGERS_EDGE_INSTALL\RateCalculator\CSOFT_RECORDSET_EXT.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\CSOFT_RECORDSET_EXT.dll</HintPath>
     </Reference>
     <Reference Include="CSW_Spreadsheet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BUILDS\DotNetRprtDlls\CSW_Spreadsheet.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\CSW_Spreadsheet.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraSpreadsheet.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BUILDS\DevExpress.XtraSpreadsheet.v19.2.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\DevExpress.XtraSpreadsheet.v19.2.dll</HintPath>
     </Reference>
-    <Reference Include="FarPoint.Win.Spread, Version=10.40.20174.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+    <Reference Include="FarPoint.Win.Spread, Version=14.45.20213.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BUILDS\DotNetRprtDlls\FarPoint.Win.Spread.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\FarPoint.Win.Spread.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Win, Version=14.45.20213.0, Culture=neutral, PublicKeyToken=327c3516b1b18457, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DotNetRprtDlls\FarPoint.Win.dll</HintPath>
     </Reference>
     <Reference Include="FPSpreadADO, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BUILDS\DotNetRprtDlls\FPSpreadADO.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\FPSpreadADO.dll</HintPath>
     </Reference>
     <Reference Include="FpSpreadNET, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\BUILDS\DotNetRprtDlls\FpSpreadNET.dll</HintPath>
+      <HintPath>..\DotNetRprtDlls\FpSpreadNET.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic.Compatibility">
       <Name>Microsoft.VisualBasic.Compatibility</Name>
@@ -128,13 +132,6 @@
     <Reference Include="System.XML">
       <Name>System.XML</Name>
     </Reference>
-    <COMReference Include="ADODB">
-      <Guid>{EF53050B-882E-4776-B643-EDA472E8E3F2}</Guid>
-      <Lcid>0</Lcid>
-      <VersionMajor>2</VersionMajor>
-      <VersionMinor>7</VersionMinor>
-      <WrapperTool>primary</WrapperTool>
-    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
